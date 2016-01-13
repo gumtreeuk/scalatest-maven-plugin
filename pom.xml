@@ -11,7 +11,7 @@
   <groupId>org.scalatest</groupId>
   <artifactId>scalatest-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.gumtree1</version>
   <name>ScalaTest Maven Plugin</name>
   <description>Integrates ScalaTest into Maven</description>
 
@@ -153,7 +153,7 @@
         </configuration>
       </plugin>
 
-      <plugin>
+      <!--<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
         <executions>
@@ -165,7 +165,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
     </plugins>
   </build>
 
